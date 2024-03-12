@@ -37,7 +37,7 @@ int main()
     // types built out of other types using c++'s abstraction mechanisms are called user-defined types
     // they are referred to as classes and enumerations
 
-    read_and_sum(5);
+    std::cout<<read_and_sum(5);
 
     return 0;
 }
