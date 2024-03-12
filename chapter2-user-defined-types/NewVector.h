@@ -11,13 +11,13 @@
 class NewVector {
 // conventionally we put the public declarations first and the private declarations later
 public:
-    NewVector(int s) :elem{new double[s]}, sz{s} { } // a member function with the same name as its class is called a constructor
+    NewVector(int s) :elem{new double[s]}, sz{s} { } // a member function with the same name as its class
+    // is called a constructor; it is guaranteed to be used to initialize objects of its class
     double& operator[](int i) { return elem[i]; } // element access: subscripting
     int size() { return sz; }
 private:
     double* elem; // pointer to the elements
     int sz; // the number of the elements
 };
-
 
 #endif
