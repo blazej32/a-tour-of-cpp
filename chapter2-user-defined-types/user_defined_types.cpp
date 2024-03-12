@@ -1,4 +1,5 @@
 #include <iostream>
+#include "NewVector.h"
 
 // the first step in building a new type is often to organize the elements it needs into a data structure:
 struct Vector {
@@ -37,7 +38,9 @@ int main()
     // types built out of other types using c++'s abstraction mechanisms are called user-defined types
     // they are referred to as classes and enumerations
 
-    std::cout<<read_and_sum(5);
+    // std::cout<<read_and_sum(5);
+    NewVector v(6);
+    std::cout<<v.size();
 
     return 0;
 }
