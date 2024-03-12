@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#include "2-user-defined-types.h"
+#include <iostream>
 
 int main()
 {
